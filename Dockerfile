@@ -1,13 +1,16 @@
 FROM ubuntu:14.04
 
 
+RUN \
+  apt-get update
+
 
 # Install Node.js
 RUN \
   cd /tmp && \
   wget http://nodejs.org/dist/v0.10.29-linux-x64.tar.gz && \
-  tar xvzf node-latest.tar.gz && \
-  rm -f node-latest.tar.gz && \
+  tar xvzf v0.10.29-linux-x64.tar.gz && \
+  rm -f v0.10.29-linux-x64.tar.gz && \
   cd node-v* && \
   ./configure && \
   CXX="g++ -Wno-unused-local-typedefs" make && \
