@@ -12,12 +12,12 @@ git init
 
 #echo $TEMP
 
-exec $TEMP
+#exec $TEMP
 
-cd Trading/utrade
+#cd Trading/utrade
 
 #node utrade.js
 
 
 #echo "ola"
-top
+#top
