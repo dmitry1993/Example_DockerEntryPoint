@@ -31,7 +31,7 @@ RUN \
 
 
 
-ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+ENTRYPOINT ["/pullrepo", "-D", "FOREGROUND"]
 
 
 
