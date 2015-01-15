@@ -8,3 +8,4 @@ cd home
 
 
 echo "ola"
+top
