@@ -3,4 +3,4 @@ set -e
 
 
 
-exec "$@"
+echo "$@"
