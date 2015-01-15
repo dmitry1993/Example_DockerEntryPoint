@@ -21,9 +21,6 @@ RUN \
   cd /home
 
 
-#RUN git clone https://username:password@github.com:AntonioJFSousa/Trading.git
-
-
 
 #go to your project
 #RUN \
