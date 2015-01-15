@@ -19,6 +19,7 @@ RUN \
 
 
 
+RUN git clone git@github.com:AntonioJFSousa/Trading.git /home/Trading001
 
 
 
