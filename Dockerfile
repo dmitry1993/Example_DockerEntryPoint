@@ -31,7 +31,7 @@ COPY ./pullrepo.sh /tmp/
 
 
 
-ENTRYPOINT ["/tmp/pullrepo.sh", "-D", "FOREGROUND"]
+ENTRYPOINT ["/tmp/pullrepo.sh && /bin/bash", "-D", "FOREGROUND"]
 
 
 
