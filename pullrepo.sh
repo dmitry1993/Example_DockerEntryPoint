@@ -4,7 +4,7 @@ set -e
 
 cd home
 
-var temp = 'git clone https://'+$@+'@github.com/AntonioJFSousa/Trading.git'
+$temp = 'git clone https://'+$@+'@github.com/AntonioJFSousa/Trading.git'
 
 echo temp
 
