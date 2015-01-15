@@ -18,8 +18,7 @@ RUN \
 
 
 RUN \
-  cd /home && \
-  cd ..
+  cd /home
 
 
 #RUN git clone https://username:password@github.com:AntonioJFSousa/Trading.git
