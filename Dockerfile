@@ -31,7 +31,7 @@ RUN \
 
 
 
-ENTRYPOINT ["pullrepo"]
+ENTRYPOINT ["/home/NodeDockerfile/pullrepo"]
 
 
 
