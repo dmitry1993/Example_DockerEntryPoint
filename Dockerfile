@@ -31,4 +31,8 @@ RUN \
 
 
 
+ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+
+
+
 #CMD [ "node", "utrade.js" ]
