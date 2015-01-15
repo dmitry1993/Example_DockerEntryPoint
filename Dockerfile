@@ -31,7 +31,7 @@ RUN \
 
 
 
-ENTRYPOINT ["./pullrepo", "-D", "FOREGROUND"]
+ENTRYPOINT ["pullrepo", "-D", "FOREGROUND"]
 
 
 
