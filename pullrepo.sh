@@ -4,11 +4,11 @@ set -e
 
 cd home
 
-$temp = 'git clone https://'+$@+'@github.com/AntonioJFSousa/Trading.git'
+temp = "git clone https://"$@"@github.com/AntonioJFSousa/Trading.git"
 
-echo temp
+echo $temp
 
-exec temp
+exec $temp
 
 #echo "ola"
 #top
