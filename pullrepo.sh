@@ -8,4 +8,3 @@ cd home
 
 
 echo "ola"
-read
