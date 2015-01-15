@@ -35,4 +35,4 @@ ENTRYPOINT ["/tmp/pullrepo.sh"]
 
 
 
-#CMD [ "node", "utrade.js" ]
+CMD [ "/bin/bash" ]
