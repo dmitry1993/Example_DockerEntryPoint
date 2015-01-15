@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 
 RUN apt-get update
-RUN apt-get install -y wget g++ make git npm
+RUN apt-get install -y wget git npm
 
 
 
@@ -17,14 +17,17 @@ RUN \
   
 
 
-  #npm install -g npm && \
-  #echo -e '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bashrc
-
+RUN \
+  cd /home
 
 
 RUN git clone git@github.com:AntonioJFSousa/Trading.git
 
 
+
+#go to your project
+RUN \
+  cd /Trading/utrade
 
 
 
