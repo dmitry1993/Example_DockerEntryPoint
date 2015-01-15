@@ -30,8 +30,11 @@ RUN \
 #  cd /Trading/utrade
 
 
+COPY ./pullrepo.sh /tmp/
 
-ENTRYPOINT ["../home/NodeDockerfile/pullrepo.sh"]
+
+
+ENTRYPOINT ["/tmp/pullrepo.sh"]
 
 
 
