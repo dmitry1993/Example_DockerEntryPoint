@@ -4,9 +4,11 @@ set -e
 
 cd home
 
-git init
-git clone https://nunofontes:Nuno%40TE1@github.com/AntonioJFSousa/Trading.git
+var temp = 'git clone https://'+$@+'@github.com/AntonioJFSousa/Trading.git'
 
+echo temp
 
-echo "ola"
-top
+exec temp
+
+#echo "ola"
+#top
