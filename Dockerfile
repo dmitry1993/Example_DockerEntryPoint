@@ -13,9 +13,12 @@ RUN \
   tar xvzf node-v0.10.29-linux-x64.tar.gz && \
   rm -f node-v0.10.29-linux-x64.tar.gz && \
   cd node-v0.10.29-linux-x64 && \
+  echo -e '\n# Node.js\nexport PATH="/tmp/node-v0.10.29-linux-x64/bin:$PATH"' >> /root/.bashrc
+  
 
-  npm install -g npm && \
-  echo -e '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bashrc
+
+  #npm install -g npm && \
+  #echo -e '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bashrc
 
 
 
