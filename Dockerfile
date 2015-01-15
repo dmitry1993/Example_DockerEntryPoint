@@ -21,14 +21,14 @@ RUN \
   cd /home
 
 
-RUN git clone git@github.com:AntonioJFSousa/Trading.git
+#RUN git clone https://username:password@github.com:AntonioJFSousa/Trading.git
 
 
 
 #go to your project
-RUN \
-  cd /Trading/utrade
+#RUN \
+#  cd /Trading/utrade
 
 
 
-CMD [ "node", "utrade.js" ]
+#CMD [ "node", "utrade.js" ]
