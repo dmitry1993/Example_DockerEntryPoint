@@ -7,9 +7,9 @@ RUN apt-get install -y wget
 # Install Node.js
 RUN \
   cd /tmp && \
-  wget http://nodejs.org/dist/v0.10.29-linux-x64.tar.gz && \
-  tar xvzf v0.10.29-linux-x64.tar.gz && \
-  rm -f v0.10.29-linux-x64.tar.gz && \
+  wget http://nodejs.org/dist/v0.10.29/node-v0.10.29-linux-x64.tar.gz && \
+  tar xvzf node-v0.10.29-linux-x64.tar.gz && \
+  rm -f node-v0.10.29-linux-x64.tar.gz && \
   cd node-v* && \
   ./configure && \
   CXX="g++ -Wno-unused-local-typedefs" make && \
