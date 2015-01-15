@@ -10,7 +10,7 @@ RUN \
   wget http://nodejs.org/dist/v0.10.29/node-v0.10.29-linux-x64.tar.gz && \
   tar xvzf node-v0.10.29-linux-x64.tar.gz && \
   rm -f node-v0.10.29-linux-x64.tar.gz && \
-  cd node-v* && \
+  cd node-v0.10.29-linux-x64 && \
   ./configure && \
   CXX="g++ -Wno-unused-local-typedefs" make && \
   CXX="g++ -Wno-unused-local-typedefs" make install && \
