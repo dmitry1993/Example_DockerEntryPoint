@@ -2,7 +2,9 @@ FROM ubuntu:14.04
 
 
 RUN apt-get update
-RUN apt-get install -y wget g++ make git libssl-dev pkg-config
+RUN apt-get install -y wget g++ make git npm
+
+
 
 # Install Node.js
 RUN \
@@ -11,11 +13,7 @@ RUN \
   tar xvzf node-v0.10.29-linux-x64.tar.gz && \
   rm -f node-v0.10.29-linux-x64.tar.gz && \
   cd node-v0.10.29-linux-x64 && \
-  ./configure && \
-  CXX="g++ -Wno-unused-local-typedefs" make && \
-  CXX="g++ -Wno-unused-local-typedefs" make install && \
-  cd /tmp && \
-  rm -rf /tmp/node-v* && \
+
   npm install -g npm && \
   echo -e '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bashrc
 
