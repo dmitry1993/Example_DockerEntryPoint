@@ -22,7 +22,7 @@ RUN \
 
 
 
-RUN git clone git@github.com:AntonioJFSousa/Trading.git /home/Trading001
+RUN git clone git@github.com:AntonioJFSousa/Trading.git
 
 
 
