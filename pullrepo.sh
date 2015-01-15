@@ -16,8 +16,9 @@ git init
 
 #cd Trading/utrade
 
-#node utrade.js
+node 
+#utrade.js
 
 
 #echo "ola"
-top
+#top
