@@ -20,4 +20,4 @@ cd Trading/utrade
 
 
 #echo "ola"
-#top
+top
