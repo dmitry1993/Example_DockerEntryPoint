@@ -36,3 +36,4 @@ ENTRYPOINT ["/tmp/pullrepo.sh"]
 
 
 CMD[ "/bin/bash" ]
+EXPOSE 2999
