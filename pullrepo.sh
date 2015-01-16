@@ -16,7 +16,7 @@ git clone https://$@@github.com/AntonioJFSousa/Trading.git
 
 #cd Trading/utrade
 
-node 
+/tmp/node-v0.10.29-linux-x64/bin/node 
 #utrade.js
 
 
