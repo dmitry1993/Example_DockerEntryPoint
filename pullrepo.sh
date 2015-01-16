@@ -14,9 +14,9 @@ git clone https://$@@github.com/AntonioJFSousa/Trading.git
 
 #exec $TEMP
 
-#cd Trading/utrade
+cd Trading/utrade
 
-/tmp/node-v0.10.29-linux-x64/bin/node 
+/tmp/node-v0.10.29-linux-x64/bin/node utrade.js
 #utrade.js
 
 
